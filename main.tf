@@ -7,12 +7,16 @@ terraform {
     }
   }
 }
+
 provider "aws" {
   region = "us-east-1"
+}
+#provider "aws" {
+#  region = "us-east-1"
  # region = var.aws_region
 #   access_key = var.AWS_ACCESS_KEY
 # secret_key = var.AWS_SECRET_KEY
-}
+#}
 
 #Create security group with firewall rules
 resource "aws_security_group" "my_security_group" {
