@@ -10,12 +10,12 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-}
+
 #provider "aws" {
 #  region = "us-east-1"
  # region = var.aws_region
-#   access_key = var.AWS_ACCESS_KEY
-# secret_key = var.AWS_SECRET_KEY
+  access_key = "AKIA2M3VIEP5WLO6WZVT"
+  secret_key = "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"
 #}
 
 #Create security group with firewall rules
