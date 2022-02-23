@@ -16,6 +16,7 @@ provider "aws" {
  # region = var.aws_region
   access_key = "AKIA2M3VIEP5WLO6WZVT"
   secret_key = "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"
+  profile = "arn:aws:iam::714821084155:user/Harshu"
 #}
 
 #Create security group with firewall rules
